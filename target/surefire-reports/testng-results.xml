@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-07T22:18:11Z" name="Example test run" finished-at="2022-06-07T22:18:35Z" duration-ms="23502">
+  <suite started-at="2022-06-07T22:40:05Z" name="Example test run" finished-at="2022-06-07T22:40:25Z" duration-ms="20067">
     <groups>
     </groups>
-    <test started-at="2022-06-07T22:18:11Z" name="Simple Test" finished-at="2022-06-07T22:18:35Z" duration-ms="23502">
+    <test started-at="2022-06-07T22:40:05Z" name="Simple Test" finished-at="2022-06-07T22:40:25Z" duration-ms="20067">
       <class name="testingpages.SearchFeatureTesting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testingpages.SearchFeatureTesting@70325e14]" started-at="2022-06-07T22:18:07Z" name="setup" finished-at="2022-06-07T22:18:11Z" duration-ms="4365" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testingpages.SearchFeatureTesting@37ceb1df]" started-at="2022-06-07T22:40:02Z" name="setup" finished-at="2022-06-07T22:40:05Z" duration-ms="3573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test2()[pri:0, instance:testingpages.SearchFeatureTesting@70325e14]" started-at="2022-06-07T22:18:11Z" name="test2" finished-at="2022-06-07T22:18:22Z" duration-ms="10691" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testingpages.SearchFeatureTesting@37ceb1df]" started-at="2022-06-07T22:40:05Z" name="test2" finished-at="2022-06-07T22:40:15Z" duration-ms="10088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test1()[pri:1, instance:testingpages.SearchFeatureTesting@70325e14]" started-at="2022-06-07T22:18:22Z" name="test1" finished-at="2022-06-07T22:18:35Z" duration-ms="12653" status="PASS">
+        <test-method signature="test1()[pri:1, instance:testingpages.SearchFeatureTesting@37ceb1df]" started-at="2022-06-07T22:40:15Z" name="test1" finished-at="2022-06-07T22:40:25Z" duration-ms="9934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingpages.SearchFeatureTesting@70325e14]" started-at="2022-06-07T22:18:35Z" name="tearDown" finished-at="2022-06-07T22:18:35Z" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testingpages.SearchFeatureTesting@37ceb1df]" started-at="2022-06-07T22:40:25Z" name="tearDown" finished-at="2022-06-07T22:40:26Z" duration-ms="1030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
