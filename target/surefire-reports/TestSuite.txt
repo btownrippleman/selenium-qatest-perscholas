@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 3.714 sec <<< FAILURE! - in TestSuite
+setup(testingpages.SearchFeatureTesting)  Time elapsed: 1.617 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'org.slf4j.impl.StaticLoggerBinder org.slf4j.impl.StaticLoggerBinder.getSingleton()'
+	at testingpages.SearchFeatureTesting.setup(SearchFeatureTesting.java:34)
+
