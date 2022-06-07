@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -32,8 +33,9 @@ public class SearchFeatureTesting {
 
        //initializing and starting the browser
        WebDriverManager.chromedriver().setup();
-       driver = new ChromeDriver();
-       // driver.get("www.google.com");
+       ChromeOptions options = new ChromeOptions();
+       options.addArguments("--headless");
+        driver = new ChromeDriver(options);       // driver.get("www.google.com");
    }
    @Test (priority = 1)
    public void test1() throws InterruptedException {
